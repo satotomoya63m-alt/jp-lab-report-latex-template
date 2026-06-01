@@ -30,16 +30,15 @@ A Japanese LaTeX template and snippet collection for science and engineering stu
 - 大学・教員・TAが配布した資料のコピー
 - 個人情報
 
-## 開発状況
+## PDFの確認
 
-このプロジェクトは初期公開版です。
+このリポジトリでは、GitHub Actionsによって `template/main.tex` のビルド確認を行っています。
 
-現在は以下に対応しています。
+Actionsの実行結果から、生成されたPDFをArtifactsとしてダウンロードできます。
 
-- 日本語実験レポート用の基本テンプレート
-- 図・表・数式・SI単位のスニペット
-- Overleafでの利用ガイド
-- GitHub ActionsによるLaTeXビルド確認
+1. リポジトリ上部の `Actions` タブを開く
+2. 最新の `Build LaTeX document` を開く
+3. `Artifacts` から `lab-report-template-pdf` をダウンロードする
 
 ## ディレクトリ構成
 
