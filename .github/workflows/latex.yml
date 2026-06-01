@@ -1,1 +1,19 @@
+name: Build LaTeX document
 
+on:
+  push:
+  pull_request:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Build PDF with LuaLaTeX
+        uses: xu-cheng/latex-action@v3
+        with:
+          root_file: template/main.tex
+          latexmk_use_lualatex: true
