@@ -1,5 +1,7 @@
 # jp-lab-report-latex-template
 
+[![Build LaTeX document](https://github.com/satotomoya63m-alt/jp-lab-report-latex-template/actions/workflows/latex.yml/badge.svg)](https://github.com/satotomoya63m-alt/jp-lab-report-latex-template/actions/workflows/latex.yml)
+
 A Japanese LaTeX template and snippet collection for science and engineering students writing laboratory reports.
 
 理系大学生が日本語で実験レポートを書くための LaTeX テンプレートとコードスニペット集です。
