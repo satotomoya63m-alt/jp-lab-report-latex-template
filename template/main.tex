@@ -1,1 +1,93 @@
+\documentclass[a4paper,11pt]{ltjsarticle}
 
+% ===== 基本設定 =====
+\usepackage{luatexja}
+\usepackage{amsmath, amssymb}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{siunitx}
+\usepackage{url}
+\usepackage{hyperref}
+\usepackage{listings}
+\usepackage{xcolor}
+
+% ===== SI単位設定 =====
+\sisetup{
+  detect-all,
+  separate-uncertainty = true
+}
+
+% ===== コード表示設定 =====
+\lstset{
+  basicstyle=\ttfamily\small,
+  frame=single,
+  breaklines=true,
+  numbers=left,
+  numberstyle=\tiny,
+  keywordstyle=\color{blue},
+  commentstyle=\color{gray},
+  stringstyle=\color{red}
+}
+
+% ===== レポート情報 =====
+\title{実験レポートタイトル}
+\author{氏名：山田 太郎 \\ 学籍番号：XXXXXXXX}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\section{目的}
+
+本実験の目的を簡潔に記述する。
+
+\section{原理}
+
+実験で用いる理論や式を記述する。
+
+例えば、測定値 $x$ の平均値 $\bar{x}$ は次式で表される。
+
+\begin{equation}
+  \bar{x} = \frac{1}{n}\sum_{i=1}^{n} x_i
+\end{equation}
+
+\section{実験方法}
+
+使用した装置、測定手順、実験条件を記述する。
+
+\section{結果}
+
+測定結果を表や図で示す。
+
+\begin{table}[htbp]
+  \centering
+  \caption{測定結果の例}
+  \label{tab:result}
+  \begin{tabular}{ccc}
+    \toprule
+    試行 & 時間 / \si{\second} & 距離 / \si{\meter} \\
+    \midrule
+    1 & 1.23 & 0.45 \\
+    2 & 1.25 & 0.46 \\
+    3 & 1.22 & 0.44 \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+\section{考察}
+
+結果から分かること、誤差の原因、理論値との比較などを記述する。
+
+\section{結論}
+
+実験で得られた結論を簡潔にまとめる。
+
+\section{参考文献}
+
+\begin{thebibliography}{9}
+  \bibitem{example}
+  著者名，『書籍名』，出版社，出版年．
+\end{thebibliography}
+
+\end{document}
