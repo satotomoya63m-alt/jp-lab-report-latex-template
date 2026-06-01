@@ -52,3 +52,14 @@ jp-lab-report-latex-template/
 │   ├── overleaf.md
 │   └── local-setup.md
 └── README.md
+
+## 開発状況
+
+このプロジェクトは初期公開版です。
+
+現在は以下に対応しています。
+
+- 日本語実験レポート用の基本テンプレート
+- 図・表・数式・SI単位のスニペット
+- Overleafでの利用ガイド
+- GitHub ActionsによるLaTeXビルド確認
