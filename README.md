@@ -40,6 +40,12 @@ Actionsの実行結果から、生成されたPDFをArtifactsとしてダウン�
 2. 最新の `Build LaTeX document` を開く
 3. `Artifacts` から `lab-report-template-pdf` をダウンロードする
 
+## ドキュメント
+
+- [Overleafで使う方法](docs/overleaf.md)
+- [ローカル環境で使う方法](docs/local-setup.md)
+- [トラブルシューティング](docs/troubleshooting.md)
+
 ## ディレクトリ構成
 
 ```text
