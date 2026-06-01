@@ -1,33 +1,7 @@
 \documentclass[a4paper,11pt]{ltjsarticle}
 
 % ===== 基本設定 =====
-\usepackage{luatexja}
-\usepackage{amsmath, amssymb}
-\usepackage{graphicx}
-\usepackage{booktabs}
-\usepackage{siunitx}
-\usepackage{url}
-\usepackage{hyperref}
-\usepackage{listings}
-\usepackage{xcolor}
-
-% ===== SI単位設定 =====
-\sisetup{
-  detect-all,
-  separate-uncertainty = true
-}
-
-% ===== コード表示設定 =====
-\lstset{
-  basicstyle=\ttfamily\small,
-  frame=single,
-  breaklines=true,
-  numbers=left,
-  numberstyle=\tiny,
-  keywordstyle=\color{blue},
-  commentstyle=\color{gray},
-  stringstyle=\color{red}
-}
+\input{preamble}
 
 % ===== レポート情報 =====
 \title{実験レポートタイトル}
