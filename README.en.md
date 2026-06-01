@@ -37,3 +37,14 @@ It may also be useful for students who are new to LaTeX, Overleaf, or reproducib
 MIT License
 
 Reports, figures, tables, and experimental data created by users with this template are not covered by this repository's license.
+
+## Status
+
+This project is in its initial public release.
+
+Current features include:
+
+- Basic Japanese LaTeX lab report template
+- Figure, table, equation, and SI unit snippets
+- Overleaf guide
+- GitHub Actions build check
