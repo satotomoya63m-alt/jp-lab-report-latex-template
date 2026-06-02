@@ -54,7 +54,6 @@ jp-lab-report-latex-template/
 ├── README.en.md
 ├── LICENSE
 ├── CONTRIBUTING.md
-├── CHANGELOG.md
 ├── template/
 │   ├── main.tex
 │   └── preamble.tex
