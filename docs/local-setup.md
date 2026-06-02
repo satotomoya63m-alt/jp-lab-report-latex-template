@@ -4,28 +4,49 @@
 
 ## 前提
 
-このテンプレートは、主に以下の環境を想定しています。
+この方法では、PCにLaTeX環境を用意して、ターミナルからPDFを生成します。
+
+主に以下の環境を想定しています。
 
 - LuaLaTeX
 - latexmk
 - TeX Live
 - 日本語LaTeX環境
+- Git
+
+## ターミナルについて
+
+このページに出てくるコマンドは、PCのターミナルで実行します。
+
+使用するアプリの例：
+
+- macOS: ターミナル
+- Windows: PowerShell または コマンドプロンプト
+- Linux: Terminal
 
 ## リポジトリを取得する
+
+Gitが使える場合は、以下をターミナルで実行します。
 
 ```bash
 git clone https://github.com/satotomoya63m-alt/jp-lab-report-latex-template.git
 cd jp-lab-report-latex-template
 ```
 
+`git clone` は、GitHub上のリポジトリを自分のPCにコピーするためのコマンドです。
+
+Gitを使わない場合は、GitHubのリポジトリページから `Code` → `Download ZIP` を選び、ZIPファイルをダウンロードして展開してください。
+
 ## テンプレートをビルドする
+
+以下をターミナルで実行します。
 
 ```bash
 cd template
 latexmk -lualatex main.tex
 ```
 
-ビルドに成功すると、`main.pdf` が生成されます。
+ビルドに成功すると、`template` フォルダ内に `main.pdf` が生成されます。
 
 ## 生成ファイルを削除する
 
@@ -47,7 +68,21 @@ VS CodeでLaTeXを書く場合は、以下の拡張機能が便利です。
 
 - LaTeX Workshop
 
-設定例は環境によって異なるため、まずはターミナルから `latexmk -lualatex main.tex` が通ることを確認してください。
+まずはターミナルから以下のコマンドが通ることを確認してください。
+
+```bash
+latexmk -lualatex main.tex
+```
+
+## 環境構築が難しい場合
+
+PCにLaTeX環境を入れるのが難しい場合は、Overleafの利用をおすすめします。
+
+Overleafを使う場合は、以下を参照してください。
+
+```text
+docs/overleaf.md
+```
 
 ## 注意
 
