@@ -68,6 +68,7 @@ jp-lab-report-latex-template/
 ├── docs/
 │   ├── overleaf.md
 │   ├── local-setup.md
+│   ├── docs/vscode.md
 │   └── troubleshooting.md
 └── .github/
     └── workflows/
