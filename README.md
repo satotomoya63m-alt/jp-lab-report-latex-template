@@ -50,21 +50,27 @@ Actionsの実行結果から、生成されたPDFをArtifactsとしてダウン�
 
 ```text
 jp-lab-report-latex-template/
+├── README.md
+├── README.en.md
+├── LICENSE
+├── CONTRIBUTING.md
+├── CHANGELOG.md
 ├── template/
 │   ├── main.tex
-│   ├── preamble.tex
-│   ├── references.bib
-│   └── sections/
+│   └── preamble.tex
 ├── snippets/
 │   ├── figures.tex
 │   ├── tables.tex
 │   ├── equations.tex
-│   ├── si-units.tex
-│   ├── uncertainty.tex
-│   └── code-listing.tex
+│   └── si-units.tex
 ├── examples/
 │   └── minimal/
+│       └── main.tex
 ├── docs/
 │   ├── overleaf.md
-│   └── local-setup.md
-└── README.md
+│   ├── local-setup.md
+│   └── troubleshooting.md
+└── .github/
+    └── workflows/
+        └── latex.yml
+``
